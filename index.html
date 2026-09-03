@@ -71,13 +71,13 @@ td.num{white-space:nowrap}
 .pc-box .s{font-size:12px;color:#666;margin-top:3px}
 .path-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(230px,1fr));gap:16px;margin:18px 0 8px}
 .path-card{border:1px solid #e6e9ef;border-radius:8px;overflow:hidden;display:flex;flex-direction:column;background:#fff}
-.path-card .ph{padding:16px 18px;color:#fff}
+.path-card .ph{padding:16px 18px;color:#fff;min-height:112px;display:flex;flex-direction:column;justify-content:flex-end}
 .path-card.pa .ph{background:linear-gradient(135deg,#0a2540,#143b6b)}
 .path-card.pb .ph{background:linear-gradient(135deg,#3a4a6b,#5a6f9a)}
 .path-card.pc .ph{background:linear-gradient(135deg,#5a4a1f,#8a6f2a)}
 .path-card.pd .ph{background:linear-gradient(135deg,#1f5e3a,#2f8a55)}
 .path-card .ph .ptag{font-size:11px;letter-spacing:1.5px;text-transform:uppercase;opacity:.88;margin-bottom:6px}
-.path-card .ph .pname{font-size:18px;font-weight:700;line-height:1.2}
+.path-card .ph .pname{font-size:18px;font-weight:700;line-height:1.2;white-space:nowrap}
 .path-card .ph .punits{font-size:13px;opacity:.92;margin-top:4px}
 .path-card .pb-body{padding:16px 20px;font-size:13.5px;flex:1}
 .path-card .pb-body ul{margin:0 0 0 18px}
@@ -267,8 +267,8 @@ footer b{color:#e6ecf5}
   <div class="path-grid">
     <div class="path-card pa">
       <div class="ph">
-        <div class="ptag">Pathway A &middot; Specific Plan by right</div>
-        <div class="pname">Low-Rise Transit Node Project</div>
+        <div class="ptag">Pathway A &middot; By Right</div>
+        <div class="pname">Low-Rise Transit Node</div>
         <div class="punits">Approx. 25 to 35 units, 3 to 4 stories</div>
       </div>
       <div class="pb-body"><ul>
@@ -282,7 +282,7 @@ footer b{color:#e6ecf5}
     </div>
     <div class="path-card pc">
       <div class="ph">
-        <div class="ptag">Pathway B &middot; SB 79 + Density Bonus</div>
+        <div class="ptag">Pathway B &middot; Density Bonus</div>
         <div class="pname">Mid-Rise Mixed-Income</div>
         <div class="punits">Approx. 45 to 60 units, 5 to 6 stories</div>
       </div>
@@ -298,7 +298,7 @@ footer b{color:#e6ecf5}
     <div class="path-card pd">
       <div class="ph">
         <div class="ptag">Pathway C &middot; 100% Affordable</div>
-        <div class="pname">Transit-Adjacent Affordable</div>
+        <div class="pname">Affordable Mid-Rise</div>
         <div class="punits">Approx. 70 to 90 units, 6 to 7 stories</div>
       </div>
       <div class="pb-body"><ul>
